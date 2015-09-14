@@ -1,0 +1,136 @@
+﻿@media only screen and (max-width: 47.95em){
+
+#main-navbar {
+	position: fixed;
+	z-index: 10;
+	margin: 0;
+	top: 0;
+	left: 0;
+	right: 0;
+}
+
+h1 {
+	margin-top: 2em;
+}
+
+}
+
+header {
+	background: rgb(20,20,100);
+	color: white;
+	padding-bottom: 1em;
+}
+
+h1 {
+	font-family: helvetica;
+	font-size: 2.6em;
+	font-weight: bolder;
+	text-shadow: 4px 4px 1px black,
+				 2px -2px 1px black,
+				 -2px -2px 1px black,
+	             -2px 2px 1px black;
+					
+}
+
+#banner {
+	background: black;
+	padding: 16px;
+	border-radius: 8px;
+	margin-top: 2em;
+	display: table;
+}
+
+@media only screen and (max-width: 61em){
+
+#left-btn, #right-btn {
+	display: none;
+}
+
+}
+
+#left-btn, #right-btn {
+	font-size: 4em;
+	top: 40%;
+	position: absolute;
+	z-index: 20;
+	color: white;
+	background: black;
+	width: 1.2em;
+	text-align: center;
+	height: 1.2em;
+	opacity: 0.9;
+	border-radius: 8px;
+}
+
+#left-btn:hover, #right-btn:hover {
+	opacity: 1;
+}
+
+#left-btn {
+	left: 2%;
+}
+
+#right-btn {
+	right: 2%;
+}
+
+#main-navbar {
+	background: black;
+	border-radius: 0;
+	border: 0;
+	padding: 0 1em;
+}
+
+#main-navbar a:link {
+	color: white;
+	padding: 1em 1.5em;
+}
+
+#main-navbar a:visited {
+	color: white;
+}
+
+#main-navbar a:hover {
+	color: red;
+	background: rgb(5,5,5);
+}
+
+#banner img {
+	width: 100%;
+}
+
+#container-banner {
+	position: relative;
+	width: 100%;
+}
+
+#banner figure {
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;
+}
+
+main {
+	background: rgb(220,220,250);
+	padding: 2em 0;
+}
+
+.secondary-links ul a:hover {
+	background: black;
+	color: red;
+}
+
+footer {
+	background: black;
+	color: white;
+	font-family: helvetica;
+	text-align: justify;
+	padding: 2em 0;
+}
+
+h4 {
+	text-align: center;
+	font-size: 1.4em;
+	font-weight: bold;
+}
